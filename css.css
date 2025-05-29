@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.super1 {
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.super1:hover {
+    border: 7px solid #138df8;
+    border-radius: 100px;
+    box-shadow: 10px 10px 47px #2a9ff3;
+}
+
+.super1 .strtop1 {
+    height: 250px;
+    width: 600px;
+    background-image: url("./素材/蓝天白云.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 30px auto;
+    border: 4px solid #2a9ff3;
+}
+
+.super1 .strtop1 .ladier1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-image: url("./素材/头像.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 180px;
+    border: 4px solid #2a9ff3;
+    animation: zhuan 5s linear infinite;
+}
+
+@keyframes zhuan {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.super1 .strtop1 p {
+    color: #2a9ff3;
+    font-family: 楷体;
+    font-size: 30px;
+    text-align: center;
+}
+
+.super2 {
+    margin: 0 auto;
+    width: 1100px;
+    margin-top: 100px;
+}
+
+.super2:hover {
+    border-radius: 100px;
+    box-shadow: 10px 10px 47px #2a9ff3;
+}
+
+.super2 .strtop2 {
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.super2 .strtop2 h2 {
+    margin-left: 40px;
+    font-family: 楷体;
+    color: #075088;
+}
+
+.super2 .strtop2 ul {
+    display: block;
+    margin-left: 37px;
+}
+
+.super2 .strtop2 ul li {
+    display: inline-block;
+    width: 70px;
+    height: 47px;
+    border: 3px solid #0c95fd;
+    border-radius: 100px;
+    text-align: center;
+    margin: 37px;
+    overflow: hidden;
+
+}
+
+.super2 .strtop2 ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    font-family: 楷体;
+}
+
+.super2 .strtop2 ul li a:hover {
+    background-color: #2a9ff34f;
+}
+
+.hbl {
+    margin: 0 auto;
+    width: 1100px;
+    height: 60px;
+    margin: 20px auto;
+}
+
+.hbl:hover {
+    border-radius: 100px;
+    box-shadow: 10px 10px 47px #2a9ff3;
+}
+
+.hbl .bl1 {
+    width: 50px;
+    height: 50px;
+    background-image: url('./素材/字体图标/diqiu.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hbl .bl2 {
+    display: inline-block;
+    width: 320px;
+    height: 40px;
+    background-color: rgb(18, 174, 246);
+    border-radius: 100px;
+    position: relative;
+    left: 55px;
+    top: -40px;
+    animation: hyid 10s linear infinite;
+}
+
+.hbl .bl2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+@keyframes hyid {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(720px);
+    }
+}
+
+.super3 {
+    margin: 20px auto;
+    width: 1100px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px 100px 10px 100px;
+}
+
+.super3:hover {
+    box-shadow: 10px 10px 47px #2a9ff3;
+}
+
+.super3 .strtop3{
+    display: inline-block;
+    height: 500px;
+}
+.super3 .top3{
+    flex: 1;
+    background-color: #269bf5;
+}
+.super3 .top3 h1{
+    text-align: center;
+}
+.super3 .top3 .top31{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(240, 248, 255, 0.481);
+    margin: auto;
+}
+.super3 .top3 .top31 p{
+    color: rgb(18, 81, 255);
+    background-color: #fa0707;
+    text-align: center;
+}
+.super3 .top3 .top31 form input{
+    border: none;
+    background: none;
+    outline: none;
+}
+.super3 .top3 .top31 form input:hover{
+    border-bottom: 4px solid #0737d4;
+}
+.super3 .top3 .top31 form select{
+    border: none;
+    background: none;
+    outline: none;
+    color: #075088;
+}
+.super3 .top3 .top31 form button{
+    background-color: #0c94fd7c;
+    margin-left: 100px;
+}
+.super3 .top4{
+    flex: 2;
+    background-color: #3def99;
+}
+.super3 .top4 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.super3 .top4 ul li {
+    display: inline-block;
+    width: 300px;
+    height: 120px;
+   margin: 20px 17px;
+   border-top-right-radius: 47px;
+}
+.super3 .top4 ul .lac1{
+    background-image: url("https://img2.baidu.com/it/u=1990114982,2291206181&fm=253&fmt=auto?w=1200&h=800");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.super3 .top4 ul .lac2{
+    background-image: url("https://img1.baidu.com/it/u=1981593546,2409178856&fm=253&fmt=auto?w=475&h=634s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.super3 .top4 ul .lac3{
+    background-image: url("https://img1.baidu.com/it/u=196273335,2536460616&fm=253&fmt=auto&app=138&f=JPEG?w=727&h=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.super3 .top4 ul .lac4{
+    background-image: url("https://img2.baidu.com/it/u=864019598,453669084&fm=253&fmt=auto?w=1068&h=800");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.super3 .top4 ul .lac5{
+    background-image: url("https://img1.baidu.com/it/u=4260478655,2012966412&fm=253&fmt=auto&app=120&f=JPEG?w=750&h=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.super3 .top4 ul .lac6{
+    background-image: url("https://img0.baidu.com/it/u=1935635062,3103040658&fm=253&fmt=auto&app=138&f=JPEG?w=751&h=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.super4{
+    margin: 10px auto;
+    width: 1100px;
+    overflow: hidden;
+}
+.super4 .strtop4{
+    background-color: #0c95fd;
+    margin: 10px auto;
+}
+.super4 .strtop4 table{
+    border-collapse: collapse;
+}
+.super4 .strtop4 table td{
+    border: 3px solid #4cf3ff;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+.super4 .strtop4 table tr{
+}

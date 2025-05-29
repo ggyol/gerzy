@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>这里是个人网站制作子页</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .str1{
+            margin: 0 auto;
+            width: 1100px;
+            background-color: rgb(70, 171, 248);
+        }
+        h1{
+            text-align: center;
+            color: aqua;
+        }
+        .top1{
+            width: 900px;
+            height: 900px;
+            background-image: url('./星空.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: auto;
+        }
+        .top1 ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .top1 li{
+            display: inline-block;
+            margin: 60px 40px 70px 40px;
+            animation: z 1s linear infinite;
+        }
+        @keyframes z{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        .top1 li img{
+            width: 180px;
+        }
+    </style>
+</head>
+<body>
+    <div class="str1">
+        <h1>欢迎来到子页</h1>
+        <h2>银河系？(没抠图)</h2>
+        <div class="top1">
+            <ul>
+                <li class="quan"><img src="./太阳.jpg" alt=""></li>
+                <li class="quan"><img src="./水星.jpg" alt=""></li>
+                <li class="quan"><img src="./金星.jpg" alt=""></li>
+                <li class="quan"><img src="./地球.jpg" alt=""></li>
+                <li class="quan"><img src="./火星.jpg" alt=""></li>
+                <li class="quan"><img src="./木星.jpg" alt=""></li>
+                <li class="quan"><img src="./土星.jpg" alt=""></li>
+                <li class="quan"><img src="./天王星.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <h1>无js没交互。。。。。。。。。。404</h1>
+</body>
+</html>
